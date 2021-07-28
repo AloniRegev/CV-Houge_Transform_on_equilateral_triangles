@@ -4,7 +4,7 @@ The goal is to automatically detect equilateral triangles in natural images usin
 
 ## Results:
 - ```
-  img= image002.jpg
+  img= triangles_1/image002.jpg
   edgeLength=11
   canny_l=350 
   canny_h=700 
@@ -15,11 +15,38 @@ The goal is to automatically detect equilateral triangles in natural images usin
   ![Q1_t1_image2_canny](./outputs/Q1_t1_image2_canny.png?raw=true)
   ![Q1_t1_image2](./outputs/Q1_t1_image2.png?raw=true)
   
-- ![Q1_t1_image3_canny](./outputs/Q1_t1_image3_canny.png?raw=true)
+- ```
+  img= triangles_1/image003.jpg
+  edgeLength=95
+  canny_l=150 
+  canny_h=750 
+  center_step=11
+  angle_step=3
+  n=15
+  ```
+  ![Q1_t1_image3_canny](./outputs/Q1_t1_image3_canny.png?raw=true)
   ![Q1_t1_image3](./outputs/Q1_t1_image3.png?raw=true)
   
-- ![Q1_t2_image1_canny](./outputs/Q1_t2_image1_canny.png?raw=true)
+- ```
+  img= triangles_2/image001.jpg
+  edgeLength=26
+  canny_l=50 
+  canny_h=150 
+  center_step=5
+  angle_step=1
+  n=750
+  ```
+  ![Q1_t2_image1_canny](./outputs/Q1_t2_image1_canny.png?raw=true)
   ![Q1_t2_image1](./outputs/Q1_t2_image1.png?raw=true)
   
-- ![Q1_t2_image3_canny](./outputs/Q1_t2_image3_canny.png?raw=true)
+- ```
+  img= triangles_2/image003.jpg
+  edgeLength=16
+  canny_l=100 
+  canny_h=150 
+  center_step=15
+  angle_step=60
+  n=425
+  ```
+  ![Q1_t2_image3_canny](./outputs/Q1_t2_image3_canny.png?raw=true)
   ![Q1_t2_image3](./outputs/Q1_t2_image3.png?raw=true)
