@@ -28,7 +28,6 @@ def draw_triangle(img, x, y, orientation, edgeLength):
 def run_script(img, edgeLength, canny_l, canny_h, center_step, angle_step, n):
     # Votes for triangle center point by travling on lines that are parallel to the edge's direction (perpendicular to
     # the gradient direction) edgeLength/2 to the left, and edgeLength/2 to the right
-    # n = number of top votes to take
 
     img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     d = round(edgeLength * math.sqrt(3) / 6)
@@ -100,5 +99,5 @@ if __name__ == "__main__":
     canny_h=700 #higher canny edge detection threshold
     center_step=3 #shap center quantization value
     angle_step=20 #shap angle quantization value
-    n=200
+    n=200 #number of top votes to take
     run_script(img, edgeLength, canny_l, canny_h, center_step, angle_step, n)
