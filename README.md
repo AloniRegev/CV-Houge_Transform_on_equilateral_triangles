@@ -2,7 +2,7 @@
 ## About:
 The goal is to automatically detect equilateral triangles in natural images using a variant of the Hough Transform. Each detected triangle should be drawn (automatically by your code) using thin lines of a visible color. In each image you will attempt to detect all equilateral triangles of a fixed edge length, at all possible locations and orientations.
 
-## Results:
+## Notable Results:
 - ```
   img= triangles_1/image002.jpg
   edgeLength=11
@@ -50,3 +50,7 @@ The goal is to automatically detect equilateral triangles in natural images usin
   ```
   ![Q1_t2_image3_canny](./outputs/Q1_t2_image3_canny.png?raw=true)
   ![Q1_t2_image3](./outputs/Q1_t2_image3.png?raw=true)
+  
+  ## Authors:
+  -[Husam Lucia](https://www.linkedin.com/in/husam-lucia-6841b51a3)
+  -[Regev Aloni](https://www.linkedin.com/in/aloniregev)
