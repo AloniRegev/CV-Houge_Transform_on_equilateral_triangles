@@ -52,5 +52,5 @@ The goal is to automatically detect equilateral triangles in natural images usin
   ![Q1_t2_image3](./outputs/Q1_t2_image3.png?raw=true)
   
   ## Authors:
-  -[Husam Lucia](https://www.linkedin.com/in/husam-lucia-6841b51a3)
-  -[Regev Aloni](https://www.linkedin.com/in/aloniregev)
+  - [Husam Lucia](https://www.linkedin.com/in/husam-lucia-6841b51a3)
+  - [Regev Aloni](https://www.linkedin.com/in/aloniregev)
